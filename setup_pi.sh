@@ -14,7 +14,7 @@ sudo chmod +x /usr/local/bin/rmate
 sudo mv /usr/local/bin/rmate /usr/local/bin/ratom
 
 sudo chmod +x ./raspi-motd.sh
-./raspi-motd.sh
+sudo ./raspi-motd.sh
 
 sudo cp ./.zshrc ~/.zshrc
 sudo cp ./.gitconfig ~/.gitconfig

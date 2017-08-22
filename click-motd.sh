@@ -4,7 +4,7 @@ logo="$(tput setaf 2)
        .~~.   .~~.
       '. \ ' ' / .'$(tput setaf 1)
        .~ .~~~..~.    $(tput sgr0)       _ _     _  _       _  $(tput setaf 1)
-      : .~.'~'.~. :   $(tput sgr0)   ___| |_|___| |//  ___|_|     $(tput setaf 1)
+      : .~.'~'.~. :   $(tput sgr0)   ___| |_|___| |//   ___|_|     $(tput setaf 1)
      ~ (   ) (   ) ~  $(tput sgr0)  |  _| | |  _|   |  | . | |         $(tput setaf 1)
     ( : '~'.~.'~' : ) $(tput sgr0)  |___|_|_|___|_|\_\ |  _|_|      $(tput setaf 1)
      ~ .~ (   ) ~. ~  $(tput sgr0)                     |_|         $(tput setaf 1)

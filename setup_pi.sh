@@ -7,7 +7,7 @@ sudo apt-get install vim -y
 sudo apt-get install zsh -y
 sudo apt-get install git -y
 
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 sudo curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate
 sudo chmod +x /usr/local/bin/rmate

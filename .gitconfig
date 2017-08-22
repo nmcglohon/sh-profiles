@@ -1,6 +1,10 @@
+[user]
+	email = nmcglohon@gmail.com
+	name = Neil McGlohon
+
 [core]
 	abbrev = 12
-	pager = 
+	pager =
 
 [alias]
 	lol = "log --oneline --decorate"

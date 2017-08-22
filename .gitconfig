@@ -1,0 +1,9 @@
+[core]
+	abbrev = 12
+	pager = 
+
+[alias]
+	lol = "log --oneline --decorate"
+	local = "log --oneline --decorate ^@{upstream} @"
+	tree = "log --oneline --decorate --graph"
+	stat = "log --stat -1"

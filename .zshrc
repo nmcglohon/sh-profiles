@@ -55,8 +55,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/home/neil/arduino-install:/home/neil/mpich-install/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin"
-export PATH=/home/neil/anaconda3/bin:$PATH
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -72,10 +71,6 @@ export CLICOLOR=1
 
 
 # Compilation flags
-export ARCHFLAGS="-arch x86_64"
-export ARCH="x86_64"
-
-
 
 
 # export MANPATH="/usr/local/man:$MANPATH"

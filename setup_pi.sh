@@ -6,6 +6,7 @@ sudo apt-get upgrade
 sudo apt-get install vim -y
 sudo apt-get install zsh -y
 sudo apt-get install git -y
+sudo apt-get install tmux -y
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 

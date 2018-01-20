@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="fishy"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -61,7 +61,7 @@ source $ZSH/oh-my-zsh.sh
 
 #export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[36m\]\w\[\033[m\]\$ "
 
-export PROMPT="%{$fg[cyan]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}:%{$fg[cyan]%}%~%{$reset_color%}$ "
+export PROMPT="%B%{$fg[cyan]%}%n%b%{$reset_color%}%B@%{$fg[green]%}%m%b%{$reset_color%}%B:%{$fg[cyan]%}%~%b%{$reset_color%}%B$%b "
 
 export CLICOLOR=1
 
